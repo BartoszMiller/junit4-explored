@@ -14,7 +14,7 @@ import static org.junit.Assert.fail;
 public class ExceptionalSituations {
 
     @Rule
-    public ExpectedException none = ExpectedException.none();
+    public ExpectedException expectedException = ExpectedException.none();
 
     @Test(expected = IndexOutOfBoundsException.class)
     public void usingExpected() {
@@ -33,9 +33,11 @@ public class ExceptionalSituations {
 
     @Test
     public void usingRule() {
-        none.expect(IndexOutOfBoundsException.class);
-        none.expectMessage("Index: 0, Size: 0");
-        none.expectCause(IsNull.nullValue(Throwable.class));
+
+        expectedException.expect(IndexOutOfBoundsException.class);
+        expectedException.expectMessage("Index: 0, Size: 0");
+        expectedException.expectCause(IsNull.nullValue(Throwable.class));
+
         new ArrayList<>().get(0);
     }
 }
