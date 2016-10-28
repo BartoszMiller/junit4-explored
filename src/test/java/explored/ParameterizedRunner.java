@@ -16,7 +16,7 @@ import static org.junit.Assert.assertThat;
 @RunWith(Parameterized.class)
 public class ParameterizedRunner {
 
-    @Parameters
+    @Parameters(name = "Test execution for index={index}")
     public static Collection<Integer> data() {
         return Arrays.asList(1, 2, 3);
     }

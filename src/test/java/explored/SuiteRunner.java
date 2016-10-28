@@ -4,7 +4,9 @@ package explored;
 import explored.assertions.AssertionsBasics;
 import explored.assertions.AssertionsWithMatchers;
 import explored.exception.ExceptionalSituations;
+import explored.miscellaneous.SomeAdditionalFeatures;
 import explored.order.TestsExecutedInOrder;
+import explored.rules.TestsWithRules;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
@@ -13,7 +15,9 @@ import org.junit.runners.Suite;
         AssertionsBasics.class,
         AssertionsWithMatchers.class,
         ExceptionalSituations.class,
-        TestsExecutedInOrder.class})
+        SomeAdditionalFeatures.class,
+        TestsExecutedInOrder.class,
+        TestsWithRules.class})
 public class SuiteRunner {
 
 }
