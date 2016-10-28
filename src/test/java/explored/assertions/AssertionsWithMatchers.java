@@ -1,5 +1,6 @@
-package explored;
+package explored.assertions;
 
+import explored.Person;
 import org.hamcrest.core.*;
 import org.junit.Test;
 

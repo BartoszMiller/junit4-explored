@@ -39,7 +39,9 @@
                 <version>2.19.1</version>
                 <configuration>
                     <includes>
-                        <include>**/*.java</include>
+                        <include>explored.CategoriesRunner</include>
+                        <include>explored.ParameterizedRunner</include>
+                        <include>explored.SuiteRunner</include>
                     </includes>
                 </configuration>
             </plugin>

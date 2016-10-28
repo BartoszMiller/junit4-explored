@@ -2,22 +2,22 @@ package explored;
 
 import java.util.List;
 
-class Person {
+public class Person {
 
     private final String firstName;
     private final List<String> interests;
 
 
-    Person(String firstName, List<String> interests) {
+    public Person(String firstName, List<String> interests) {
         this.firstName = firstName;
         this.interests = interests;
     }
 
-    String getFirstName() {
+    public String getFirstName() {
         return firstName;
     }
 
-    List<String> getInterests() {
+    public List<String> getInterests() {
         return interests;
     }
 
