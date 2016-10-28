@@ -3,6 +3,7 @@ package explored;
 
 import explored.assertions.AssertionsBasics;
 import explored.assertions.AssertionsWithMatchers;
+import explored.assumptions.Assumptions;
 import explored.exception.ExceptionalSituations;
 import explored.miscellaneous.SomeAdditionalFeatures;
 import explored.order.TestsExecutedInOrder;
@@ -14,6 +15,7 @@ import org.junit.runners.Suite;
 @Suite.SuiteClasses({
         AssertionsBasics.class,
         AssertionsWithMatchers.class,
+        Assumptions.class,
         ExceptionalSituations.class,
         SomeAdditionalFeatures.class,
         TestsExecutedInOrder.class,
