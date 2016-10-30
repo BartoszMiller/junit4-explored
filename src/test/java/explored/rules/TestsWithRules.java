@@ -20,7 +20,8 @@ public class TestsWithRules {
     public static Timeout timeoutPerClass = Timeout.millis(1000);
 
     @Rule
-    public RuleChain chainWithCustomRules = RuleChain.outerRule(new CustomLoggingRule("outer")).around(new CustomLoggingRule("inner"));
+    public RuleChain chainWithCustomRules
+            = RuleChain.outerRule(new CustomLoggingRule("Outer custom Rule")).around(new CustomLoggingRule("Inner custom Rule"));
 
     @Rule
     public Timeout timeoutPerMethod = Timeout.millis(1000);
