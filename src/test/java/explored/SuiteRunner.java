@@ -1,9 +1,9 @@
 package explored;
 
 
-import explored.assertions.AssertionsBasics;
-import explored.assertions.AssertionsWithMatchers;
-import explored.assumptions.Assumptions;
+import explored.assertion.AssertionsBasics;
+import explored.assertion.AssertionsWithMatchers;
+import explored.assumption.Assumptions;
 import explored.exception.ExceptionalSituations;
 import explored.miscellaneous.SomeAdditionalFeatures;
 import explored.order.TestsExecutedInOrder;

@@ -1,4 +1,4 @@
-package explored.assertions;
+package explored.assertion;
 
 import explored.Person;
 import org.hamcrest.core.*;

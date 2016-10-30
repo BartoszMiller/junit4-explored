@@ -1,4 +1,4 @@
-package explored.assumptions;
+package explored.assumption;
 
 
 import org.hamcrest.core.Is;

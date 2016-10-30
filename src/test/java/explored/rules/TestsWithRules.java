@@ -21,7 +21,7 @@ public class TestsWithRules {
 
     @Rule
     public RuleChain chainWithCustomRules
-            = RuleChain.outerRule(new CustomLoggingRule("Outer custom Rule")).around(new CustomLoggingRule("Inner custom Rule"));
+            = RuleChain.outerRule(new CustomLoggingRule("Outer custom @Rule")).around(new CustomLoggingRule("Inner custom @Rule"));
 
     @Rule
     public Timeout timeoutPerMethod = Timeout.millis(1000);

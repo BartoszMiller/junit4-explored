@@ -42,6 +42,7 @@
                         <include>explored.CategoriesRunner</include>
                         <include>explored.ParameterizedRunner</include>
                         <include>explored.SuiteRunner</include>
+                        <include>explored.theory.TheoriesRunner</include>
                     </includes>
                 </configuration>
             </plugin>

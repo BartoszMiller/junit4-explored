@@ -1,4 +1,4 @@
-package explored.assertions;
+package explored.assertion;
 
 import org.junit.Test;
 
