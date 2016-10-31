@@ -2,7 +2,7 @@ package explored;
 
 
 import explored.assertion.AssertionsBasics;
-import explored.assertion.AssertionsWithMatchers;
+import explored.assertion.AssertionsWithHamcrestMatchers;
 import explored.assumption.Assumptions;
 import explored.exception.ExceptionalSituations;
 import explored.miscellaneous.SomeAdditionalFeatures;
@@ -14,7 +14,7 @@ import org.junit.runners.Suite;
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
         AssertionsBasics.class,
-        AssertionsWithMatchers.class,
+        AssertionsWithHamcrestMatchers.class,
         Assumptions.class,
         ExceptionalSituations.class,
         SomeAdditionalFeatures.class,

@@ -8,7 +8,7 @@ import java.util.Arrays;
 
 import static org.junit.Assert.assertThat;
 
-public class AssertionsWithMatchers {
+public class AssertionsWithHamcrestMatchers {
 
     private final Person johnSmith = new Person("John", Arrays.asList("music", "sport"));
 
